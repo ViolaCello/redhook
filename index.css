@@ -15,7 +15,7 @@ body, html {
       height: 100%;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
+      /* grid-template-rows: 1fr 1fr 1fr; */
   }
 
   img {
@@ -25,5 +25,15 @@ body, html {
 
 #pizza img {
     width: auto;
-    height: 4   0%;
+    /* height: 40%; */
+}
+
+div {
+    height: 400px;
+}
+
+#pier {
+    font-weight: 1000;
+    font-size: xx-large;
+    
 }
