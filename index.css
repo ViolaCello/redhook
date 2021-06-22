@@ -3,25 +3,32 @@
 and (min-device-width : 320px) 
 and (max-device-width : 680px) {
 /* Styles */
- .container {
-      width: 100%;
-      height:auto;
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-  }
 
-.container2 {
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'AvenirNext-DemiBold';
+    font-size: 22px;
+    color: black;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    background-color: white;
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 flex: 50%;
+  }
  
-}
 div {
+    margin: 10px;
     float: none;
     width: 320px;
     height: auto;
 }
+
 
 
 }
@@ -31,6 +38,20 @@ div {
 and (min-device-width :681px) 
  {
 /* Styles */
+
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'AvenirNext-DemiBold';
+    font-size: 22px;
+    color: black;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    background-color: white;
+  }
+
 .container {
     width: 100%;
     height:auto;
@@ -50,33 +71,26 @@ and (min-device-width :681px)
         height: 400px;
     }
 
-
+    #keylimeimg {
+        width: 50%;
+        height: auto;
+    }
 
 }
 
-body, html {
-    width: 100%;
-    height: 100%;
-    font-family: 'AvenirNext-DemiBold';
-    font-size: 22px;
-    color: black;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-    background-color: white;
-  }
+
 
 #pierlogo {
     height: auto;
     display: inline-block;
     text-align: center;
 }
-  .container {
+  /* .container {
       width: 100%;
       height:auto;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-  }
+  } */
 
  
 
@@ -105,10 +119,7 @@ body, html {
     display: grid;
     grid-template-columns: 1fr 1fr;
 } */
-#keylimeimg {
-    width: 50%;
-    height: auto;
-}
+
 
 #pier {
     color: white;
